@@ -334,6 +334,20 @@ html.ie .scroll-custom {
 .taeri-page {
   padding: 50px 0;
 }
+.taeri-page .header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 24px;
+}
+.taeri-page .header a {
+  font-size: 18px;
+}
+.taeri-page .header a:hover {
+  color: #ff1d72;
+}
 .taeri-page .title {
   font-size: 32px;
 }
@@ -341,6 +355,9 @@ html.ie .scroll-custom {
   .taeri-page .title {
     font-size: 22px;
   }
+}
+.taeri-page .section-01 {
+  padding: 50px 0 0;
 }
 .taeri-page .section-01 .wrap {
   overflow: hidden;
@@ -464,17 +481,7 @@ html.ie .scroll-custom {
   color: #fff;
 }
 .taeri-page .section-03 {
-  padding: 118px 0;
-}
-.taeri-page .section-03 .tag-grp .tag {
-  padding: 6px 14px;
-  border: 1px dashed #aaa;
-  border-radius: 50px;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 2px 13px;
-  text-transform: uppercase;
-  vertical-align: top;
+  padding: 50px 0;
 }
 @media all and (max-width: 600px) {
   .taeri-page .section-03 {
@@ -573,7 +580,7 @@ html.ie .scroll-custom {
   }
 }
 .taeri-page .section-04 {
-  padding: 0 0 86px;
+  padding: 40px 0 86px;
 }
 @media all and (max-width: 600px) {
   .taeri-page .section-04 .wrap {
@@ -638,19 +645,19 @@ html.ie .scroll-custom {
   font-size: 15px;
   color: #232323;
 }
-.taeri-page .section-06 {
+.taeri-page .section-05 {
   padding: 48px 0 100px;
 }
 @media all and (max-width: 600px) {
-  .taeri-page .section-06 {
+  .taeri-page .section-05 {
     padding: 0 0 100px;
   }
 }
-.taeri-page .section-06 .ttl {
+.taeri-page .section-05 .ttl {
   font-size: 16px;
 }
 @media all and (max-width: 600px) {
-  .taeri-page .section-06 .ttl {
+  .taeri-page .section-05 .ttl {
     font-size: 14px;
   }
 }
