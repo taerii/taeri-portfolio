@@ -71,47 +71,47 @@ img {
 @font-face {
   font-family: "pretendard";
   font-weight: 900;
-  src: url("../fonts/pretendard/Pretendard-Black.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Black.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Black.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Black.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Black.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Black.woff") format("woff"), url("../fonts/pretendard/Pretendard-Black.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Black.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 800;
-  src: url("../fonts/pretendard/Pretendard-ExtraBold.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraBold.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraBold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-ExtraBold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraBold.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraBold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-ExtraBold.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 700;
-  src: url("../fonts/pretendard/Pretendard-Bold.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Bold.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Bold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Bold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Bold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Bold.woff") format("woff"), url("../fonts/pretendard/Pretendard-Bold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 600;
-  src: url("../fonts/pretendard/Pretendard-SemiBold.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-SemiBold.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-SemiBold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-SemiBold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-SemiBold.woff") format("woff"), url("../fonts/pretendard/Pretendard-SemiBold.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-SemiBold.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 500;
-  src: url("../fonts/pretendard/Pretendard-Medium.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Medium.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Medium.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Medium.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Medium.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Medium.woff") format("woff"), url("../fonts/pretendard/Pretendard-Medium.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 400;
-  src: url("../fonts/pretendard/Pretendard-Regular.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Regular.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Regular.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Regular.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Regular.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Regular.woff") format("woff"), url("../fonts/pretendard/Pretendard-Regular.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 300;
-  src: url("../fonts/pretendard/Pretendard-Light.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Light.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Light.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Light.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Light.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Light.woff") format("woff"), url("../fonts/pretendard/Pretendard-Light.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Light.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 200;
-  src: url("../fonts/pretendard/Pretendard-ExtraLight.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraLight.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraLight.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-ExtraLight.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-ExtraLight.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraLight.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraLight.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-ExtraLight.otf") format("opentype");
 }
 @font-face {
   font-family: "pretendard";
   font-weight: 100;
-  src: url("../fonts/pretendard/Pretendard-Thin.subset.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Thin.subset.woff") format("woff"), url("../fonts/pretendard/Pretendard-Thin.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Thin.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Thin.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Thin.woff") format("woff"), url("../fonts/pretendard/Pretendard-Thin.ttf") format("truetype"), url("../fonts/pretendard/Pretendard-Thin.otf") format("opentype");
 }
 /* ---------- poppins ---------- */
 @font-face {
@@ -541,7 +541,7 @@ html.ie .scroll-custom {
 .taeri-page .section-03 .wrap .tag-img-grp .tag-img {
   width: 100%;
   height: 55px;
-  background-image: url("./images/img/img_bg_01.png");
+  background-image: url("/assets/images/img/img_bg_01.png");
   background-position-x: left;
   background-size: 1824px 51px;
   background-repeat: repeat-x;

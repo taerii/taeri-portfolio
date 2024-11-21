@@ -73,55 +73,55 @@ img {
 @font-face {
   font-family: "pretendard";
   font-weight: 100;
-  src: url("../../fonts/pretendard/Pretendard-Thin.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Thin.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Thin.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Thin.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Thin.woff") format("woff"), url("../fonts/pretendard/Pretendard-Thin.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 200;
-  src: url("../../fonts/pretendard/Pretendard-ExtraLight.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-ExtraLight.woff") format("woff"), url("../../fonts/pretendard/Pretendard-ExtraLight.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-ExtraLight.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraLight.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraLight.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 300;
-  src: url("../../fonts/pretendard/Pretendard-Light.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Light.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Light.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Light.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Light.woff") format("woff"), url("../fonts/pretendard/Pretendard-Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 400;
-  src: url("../../fonts/pretendard/Pretendard-Regular.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Regular.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Regular.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Regular.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Regular.woff") format("woff"), url("../fonts/pretendard/Pretendard-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 500;
-  src: url("../../fonts/pretendard/Pretendard-Medium.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Medium.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Medium.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Medium.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Medium.woff") format("woff"), url("../fonts/pretendard/Pretendard-Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 600;
-  src: url("../../fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-SemiBold.woff") format("woff"), url("../../fonts/pretendard/Pretendard-SemiBold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-SemiBold.woff") format("woff"), url("../fonts/pretendard/Pretendard-SemiBold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 700;
-  src: url("../../fonts/pretendard/Pretendard-Bold.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Bold.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Bold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Bold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Bold.woff") format("woff"), url("../fonts/pretendard/Pretendard-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 800;
-  src: url("../../fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-ExtraBold.woff") format("woff"), url("../../fonts/pretendard/Pretendard-ExtraBold.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-ExtraBold.woff") format("woff"), url("../fonts/pretendard/Pretendard-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "pretendard";
   font-weight: 900;
-  src: url("../../fonts/pretendard/Pretendard-Black.woff2") format("woff2"), url("../../fonts/pretendard/Pretendard-Black.woff") format("woff"), url("../../fonts/pretendard/Pretendard-Black.otf") format("opentype");
+  src: url("../fonts/pretendard/Pretendard-Black.woff2") format("woff2"), url("../fonts/pretendard/Pretendard-Black.woff") format("woff"), url("../fonts/pretendard/Pretendard-Black.otf") format("opentype");
 }
 
 /* =================== helper =================== */
@@ -428,7 +428,7 @@ html.ie .scroll-custom {
 }
 
 .rate1:after {
-  content: url("../../images/icon/icon_star1.svg");
+  content: url("../images/icon/icon_star1.svg");
 }
 
 .rate2:before {
@@ -436,7 +436,7 @@ html.ie .scroll-custom {
 }
 
 .rate2:after {
-  content: url("../../images/icon/icon_star2.svg");
+  content: url("../images/icon/icon_star2.svg");
 }
 
 .rate3:before {
@@ -444,7 +444,7 @@ html.ie .scroll-custom {
 }
 
 .rate3:after {
-  content: url("../../images/icon/icon_star3.svg");
+  content: url("../images/icon/icon_star3.svg");
 }
 
 .rate4:before {
@@ -452,7 +452,7 @@ html.ie .scroll-custom {
 }
 
 .rate4:after {
-  content: url("../../images/icon/icon_star4.svg");
+  content: url("../images/icon/icon_star4.svg");
 }
 
 .rate5:before {
@@ -460,11 +460,11 @@ html.ie .scroll-custom {
 }
 
 .rate5:after {
-  content: url("../../images/icon/icon_star5.svg");
+  content: url("../images/icon/icon_star5.svg");
 }
 
 .check-switch-onoff {
-  background-image: url("../../images/img/img_check01.png");
+  background-image: url("../images/img/img_check01.png");
   background-size: 15px 13px;
   background-repeat: no-repeat;
   background-position: center;
@@ -495,7 +495,7 @@ html.ie .scroll-custom {
 }
 
 .check-switch:checked + .check-switch-onoff {
-  background-image: url("../../images/img/img_check02.png");
+  background-image: url("../images/img/img_check02.png");
   background-color: #42EA89;
   border: 1px solid #36BF70;
 }
@@ -1279,7 +1279,7 @@ html.ie .scroll-custom {
 }
 
 .video-sub-dec-grp::before {
-  background-image: url("../../images/img/obj_speech_bubble.svg");
+  background-image: url("../images/img/obj_speech_bubble.svg");
   z-index: 1;
   content: '';
   display: block;
@@ -1325,12 +1325,12 @@ html.ie .scroll-custom {
 }
 
 .video-sub-dec-grp .video-sub-dec::before {
-  background-image: url("../../images/img/obj_quotation_mark_01.svg");
+  background-image: url("../images/img/obj_quotation_mark_01.svg");
   top: -33px;
 }
 
 .video-sub-dec-grp .video-sub-dec::after {
-  background-image: url("../../images/img/obj_quotation_mark_02.svg");
+  background-image: url("../images/img/obj_quotation_mark_02.svg");
   top: auto;
   bottom: -33px;
 }
@@ -1660,11 +1660,11 @@ html.ie .scroll-custom {
 }
 
 .wave2-section .wave-quotation-grp .wave-txt::before {
-  background-image: url("../../images/img/obj_quotation_mark_01.svg");
+  background-image: url("../images/img/obj_quotation_mark_01.svg");
 }
 
 .wave2-section .wave-quotation-grp .wave-txt::after {
-  background-image: url("../../images/img/obj_quotation_mark_02.svg");
+  background-image: url("../images/img/obj_quotation_mark_02.svg");
   top: auto;
   bottom: -25px;
 }
@@ -2083,11 +2083,11 @@ html.ie .scroll-custom {
 }
 
 .guide-section .guide-quotation-grp .quotation-txt::before {
-  background-image: url("../../images/img/obj_quotation_mark_01.svg");
+  background-image: url("../images/img/obj_quotation_mark_01.svg");
 }
 
 .guide-section .guide-quotation-grp .quotation-txt::after {
-  background-image: url("../../images/img/obj_quotation_mark_02.svg");
+  background-image: url("../images/img/obj_quotation_mark_02.svg");
   top: auto;
   bottom: -25px;
 }
@@ -3322,7 +3322,7 @@ html.ie .scroll-custom {
 }
 
 .profile-section .profile-top-grp .profile-top-left .profile-top-txt-area .profile-top-txt::before {
-  background-image: url("../../images/img/icon_quotation_marks01.svg");
+  background-image: url("../images/img/icon_quotation_marks01.svg");
   content: "";
   position: absolute;
   z-index: 1;
@@ -3341,7 +3341,7 @@ html.ie .scroll-custom {
 }
 
 .profile-section .profile-top-grp .profile-top-left .profile-top-txt-area .profile-top-txt::after {
-  background-image: url("../../images/img/icon_quotation_marks02.svg");
+  background-image: url("../images/img/icon_quotation_marks02.svg");
   content: "";
   position: absolute;
   z-index: 1;
@@ -3430,7 +3430,7 @@ html.ie .scroll-custom {
 }
 
 .profile-section .profile-scroll-grp .logo {
-  background-image: url("../../images/img/img_profile_03.svg");
+  background-image: url("../images/img/img_profile_03.svg");
   width: 407px;
   height: 31px;
   margin: 0 auto;
@@ -3450,7 +3450,7 @@ html.ie .scroll-custom {
 
 @media all and (max-width: 600px) {
   .profile-section .profile-scroll-grp .logo {
-    background-image: url("../../images/img/img_profile_03_m.svg");
+    background-image: url("../images/img/img_profile_03_m.svg");
     width: 319px;
     height: 26px;
   }
@@ -3592,7 +3592,7 @@ html.ie .scroll-custom {
 }
 
 .mistake-two-section {
-  background-image: url("../../images/img/bg_img01.png");
+  background-image: url("../images/img/bg_img01.png");
   display: block;
   background-position: center;
   background-size: cover;
@@ -3603,13 +3603,13 @@ html.ie .scroll-custom {
 
 @media all and (max-width: 600px) {
   .mistake-two-section {
-    background-image: url("../../images/img/bg_img01_m.png");
+    background-image: url("../images/img/bg_img01_m.png");
     padding-top: 50px;
   }
 }
 
 .mistake-two-section .mistake-tow-box-grp {
-  background-image: url("../../images/img/bg_img02.png");
+  background-image: url("../images/img/bg_img02.png");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3621,7 +3621,7 @@ html.ie .scroll-custom {
 
 @media all and (max-width: 600px) {
   .mistake-two-section .mistake-tow-box-grp {
-    background-image: url("../../images/img/bg_img02_m.png");
+    background-image: url("../images/img/bg_img02_m.png");
     width: 344px;
     height: 481px;
     margin-top: -14px;
@@ -3723,13 +3723,13 @@ html.ie .scroll-custom {
 }
 
 .mistake-three-section .mistake-three-txt-area .mistake-three-txt::before {
-  background-image: url("../../images/img/icon_quotation_marks01.svg");
+  background-image: url("../images/img/icon_quotation_marks01.svg");
   top: -25px;
   left: 7px;
 }
 
 .mistake-three-section .mistake-three-txt-area .mistake-three-txt::after {
-  background-image: url("../../images/img/icon_quotation_marks02.svg");
+  background-image: url("../images/img/icon_quotation_marks02.svg");
   top: auto;
   bottom: -25px;
   left: 7px;
@@ -3971,7 +3971,7 @@ html.ie .scroll-custom {
 }
 
 .wave-secion {
-  background-image: url("../../images/img/bg_img03.png");
+  background-image: url("../images/img/bg_img03.png");
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3980,7 +3980,7 @@ html.ie .scroll-custom {
 
 @media all and (max-width: 600px) {
   .wave-secion {
-    background-image: url("../../images/img/m_bg_img03.png");
+    background-image: url("../images/img/m_bg_img03.png");
     padding: 56px 0 39px;
   }
 }
@@ -4493,7 +4493,7 @@ html.ie .scroll-custom {
 }
 
 .cw-slide-section .main-slide-wrap::after {
-  background-image: url("../../images/img/icon_slide01.svg");
+  background-image: url("../images/img/icon_slide01.svg");
   content: "";
   top: -23px;
   z-index: 2;
@@ -4507,7 +4507,7 @@ html.ie .scroll-custom {
 
 @media all and (max-width: 600px) {
   .cw-slide-section .main-slide-wrap::after {
-    background-image: url("../../images/img/icon_slide01_m.svg");
+    background-image: url("../images/img/icon_slide01_m.svg");
     width: 75px;
     height: 37px;
     top: -20px;
@@ -4601,12 +4601,12 @@ html.ie .scroll-custom {
 }
 
 .cw-slide-section .cw-slide-wrap .cw-slide-top .cw-slide-top-txt::before {
-  background-image: url("../../images/img/icon_quotation_marks01.svg");
+  background-image: url("../images/img/icon_quotation_marks01.svg");
   top: 28px;
 }
 
 .cw-slide-section .cw-slide-wrap .cw-slide-top .cw-slide-top-txt::after {
-  background-image: url("../../images/img/icon_quotation_marks02.svg");
+  background-image: url("../images/img/icon_quotation_marks02.svg");
   top: auto;
   bottom: -28px;
 }
@@ -4802,7 +4802,7 @@ html.ie .scroll-custom {
 }
 
 .cw-slide-section .cw-btn-prev {
-  background-image: url("../../images/img/icon_slide_prev.svg");
+  background-image: url("../images/img/icon_slide_prev.svg");
   left: 135px;
 }
 
@@ -4813,7 +4813,7 @@ html.ie .scroll-custom {
 }
 
 .cw-slide-section .cw-btn-next {
-  background-image: url("../../images/img/icon_slide_next.svg");
+  background-image: url("../images/img/icon_slide_next.svg");
   right: 135px;
   left: auto;
 }
@@ -4916,7 +4916,7 @@ html.ie .scroll-custom {
 }
 
 .news-list-page .news-list-ttl-wrap .home-link::before {
-  background-image: url("../../images/img/btn_left.svg");
+  background-image: url("../images/img/btn_left.svg");
   content: '';
   display: block;
   position: absolute;
