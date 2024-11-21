@@ -531,6 +531,7 @@ html.ie .scroll-custom {
   }
 }
 .taeri-page .section-03 .wrap .tag-img-grp {
+  gap: 8px;
   margin-top: 13px;
 }
 @media all and (max-width: 600px) {
@@ -538,18 +539,11 @@ html.ie .scroll-custom {
     margin-bottom: 0;
   }
 }
-.taeri-page .section-03 .wrap .tag-img-grp .tag-img {
-  width: 100%;
-  height: 55px;
-  background-image: url("/assets/images/img/img_bg_01.png");
-  background-position-x: left;
-  background-size: 1824px 51px;
-  background-repeat: repeat-x;
-  animation-name: ptnLogo-left;
-  animation-duration: 16s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
+.taeri-page .section-03 .wrap .tag-img-grp .tag {
+  padding: 3px 14px;
+  font-size: 16px;
+  border: 1px dashed #aaa;
+  border-radius: 50px;
 }
 .taeri-page .section-03 .wrap .list-grp {
   margin-top: 24px;
