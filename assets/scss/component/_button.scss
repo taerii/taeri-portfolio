@@ -1,0 +1,57 @@
+/* =================== button =================== */
+.btn {
+  @include input-reset;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn-detail {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #000;
+  font-size: 14px;
+  color: #fff;
+
+  .type-dafault {
+    display: block;
+  }
+
+  .type-hover {
+    display: none;
+  }
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+
+    .type-default {
+      display: none;
+    }
+  
+    .type-hover {
+      display: block;
+    }
+  }
+}
+
+.btn-copy {
+  font-size: 28px;
+  margin: 36px auto 0;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px dashed #aaa;
+
+  @include mobile {
+    font-size: 18px;
+  }
+
+  &:hover {
+    border-color: pink;
+    color: #ff1d72;
+  }
+}

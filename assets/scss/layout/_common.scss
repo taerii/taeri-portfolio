@@ -1,0 +1,816 @@
+/* =================== scroll animation =================== */
+@keyframes ptnLogo-left {
+  100% {
+    background-position: 1824px;
+  }
+
+  0% {
+    background-position: 0;
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-left {
+  to {
+    left: -6%;
+    opacity: 1;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes slide-right {
+  to {
+    right: -6%;
+    opacity: 1;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes vertical-scroll {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: translateY(30%);
+  }
+}
+
+@keyframes horizontal-scroll {
+  0% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: translateX(30%);
+  }
+}
+
+@keyframes horizontal-full-scroll {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+
+  25% {
+    opacity: .5;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(50%);
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(120%);
+  }
+}
+
+@keyframes diagonal-right-alarm {
+  0% {
+    opacity: 0;
+    transform: translate(-30%, 30%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: translate(30%, -30%);
+  }
+}
+
+@keyframes diagonal-left-alarm {
+  0% {
+    opacity: 0;
+    transform: translate(30%, -30%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: translate(-30%, 30%);
+  }
+}
+
+@keyframes ring-ani {
+  0% {
+    transform: rotate(0);
+  }
+
+  1% {
+    transform: rotate(30deg);
+  }
+
+  3% {
+    transform: rotate(-28deg);
+  }
+
+  5% {
+    transform: rotate(34deg);
+  }
+
+  7% {
+    transform: rotate(-32deg);
+  }
+
+  9% {
+    transform: rotate(30deg);
+  }
+
+  11% {
+    transform: rotate(-28deg);
+  }
+
+  13% {
+    transform: rotate(26deg);
+  }
+
+  15% {
+    transform: rotate(-24deg);
+  }
+
+  17% {
+    transform: rotate(22deg);
+  }
+
+  19% {
+    transform: rotate(-20deg);
+  }
+
+  21% {
+    transform: rotate(18deg);
+  }
+
+  23% {
+    transform: rotate(-16deg);
+  }
+
+  25% {
+    transform: rotate(14deg);
+  }
+
+  27% {
+    transform: rotate(-12deg);
+  }
+
+  29% {
+    transform: rotate(10deg);
+  }
+
+  31% {
+    transform: rotate(-8deg);
+  }
+
+  33% {
+    transform: rotate(6deg);
+  }
+
+  35% {
+    transform: rotate(-4deg);
+  }
+
+  37% {
+    transform: rotate(2deg);
+  }
+
+  39% {
+    transform: rotate(-1deg);
+  }
+
+  41% {
+    transform: rotate(1deg);
+  }
+
+  43% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes alert-ani {
+  10% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  90% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes ptnLogo {
+  0% {
+    background-position: 407px; // 이미지 크기대로 변경
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+// dongdong
+@keyframes dongdong {
+  0% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+// dongdong
+@keyframes dongdong02 {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+.ani-dongdong {
+  animation-name: dongdong;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.ani-dongdong-02 {
+  animation-name: dongdong02;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.scroll-vertical-img {
+  animation-name: vertical-scroll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.scroll-horizontal-img {
+  animation-name: horizontal-scroll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.diagonal-left-alarm-img {
+  animation-name: diagonal-left-alarm;
+  animation-duration: 1.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.diagonal-right-alarm-img {
+  animation-name: diagonal-right-alarm;
+  animation-duration: 1.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.scroll-horizontal-full-img {
+  animation-name: horizontal-full-scroll;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.alert-ani-img {
+  animation-name: alert-ani;
+  animation-duration: 1.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.ring-ani-img {
+  -webkit-animation: ring-ani 10s .7s ease-in-out infinite;
+  -webkit-transform-origin: 50% 4px;
+  -moz-animation: ring-ani 10s .7s ease-in-out infinite;
+  -moz-transform-origin: 50% 4px;
+  animation: ring-ani 10s .7s ease-in-out infinite;
+  transform-origin: 50% 4px;
+}
+
+/* =================== layout =================== */
+#app {
+  min-height: 100%;
+}
+
+#page {
+  min-height: 100%;
+}
+
+.l-center {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.panel {
+  max-width: 915px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bold-txt {
+  font-weight: 700;
+}
+
+.is-none {
+  display: none;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+// z-index ====================
+.z-1 {
+  z-index: 1;
+}
+
+// position ====================
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+// flex ====================
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block !important;
+}
+
+.i-block {
+  display: inline-block;
+}
+
+.flex-s-0 {
+  flex-shrink: 0;
+}
+
+.items-s {
+  align-items: flex-start;
+}
+
+.items-c {
+  align-items: center;
+}
+
+.items-t {
+  align-items: stretch;
+}
+
+.justify-s {
+  justify-content: flex-start;
+}
+
+.justify-c {
+  justify-content: center;
+}
+
+.justify-b {
+  justify-content: space-between;
+}
+
+.justify-a {
+  justify-content: space-around;
+}
+
+.justify-e {
+  justify-content: flex-end !important;
+}
+
+.flex-d-c {
+  flex-direction: column;
+}
+
+.flex-w {
+  flex-wrap: wrap;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-6 {
+  gap: 6px;
+}
+
+.gap-7 {
+  gap: 7px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-9 {
+  gap: 9px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-14 {
+  gap: 14px;
+}
+
+.gap-17 {
+  gap: 17px;
+}
+
+.gap-22 {
+  gap: 22px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.gap-28 {
+  gap: 28px;
+}
+
+.gap-29 {
+  gap: 29px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-76 {
+  gap: 76px;
+}
+
+// width ====================
+.w-full {
+  width: 100%;
+}
+
+// margin ====================
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-3 {
+  margin-bottom: 3px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-7 {
+  margin-bottom: 7px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-11 {
+  margin-bottom: 11px;
+}
+.mb-13 {
+  margin-bottom: 13px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-21 {
+  margin-bottom: 21px;
+}
+.ml-6 {
+  margin-left: 6px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.margin-x {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+
+// padding ====================
+.p-0 {
+  padding: 0 !important;
+}
+
+.pt-46 {
+  padding-top: 46px;
+}
+
+
+// background ====================
+.bg-wh {
+  background-color: #fff !important;
+}
+
+// font size ====================
+.f-12 {
+  font-size: 12px;
+}
+.f-13 {
+  font-size: 13px;
+}
+.f-14 {
+  font-size: 14px !important;
+}
+.f-15 {
+  font-size: 15px;
+}
+.f-17 {
+  font-size: 17px;
+}
+.f-18 {
+  font-size: 18px;
+}
+.f-19 {
+  font-size: 19px;
+}
+.f-20 {
+  font-size: 20px;
+}
+.f-22 {
+  font-size: 22px;
+}
+
+// font color ====================
+.f-bk {
+  color: #000;
+}
+
+.f-wh {
+  color: #fff;
+}
+
+.f-gry {
+  color: #b2bdd1;
+}
+
+.f-green {
+  color: #20FFA6;
+}
+
+.f-green-02 {
+  color: #00D27F;
+}
+
+.f-blue {
+  color: #0062e2;
+}
+
+// font family ===================
+.f-pop {
+  font-family: 'poppins', sans-serif;
+}
+
+// font weight ====================
+.f-e {
+  font-weight: 800;
+}
+
+.f-b {
+  font-weight: 700;
+}
+
+.f-s {
+  font-weight: 600;
+}
+
+.f-m {
+  font-weight: 500;
+}
+
+.f-r {
+  font-weight: 400;
+}
+
+.f-l {
+  font-weight: 300;
+}
+
+.f-el {
+  font-weight: 200;
+}
+
+.f-span {
+  vertical-align: bottom;
+}
+
+.f-center {
+  text-align: center;
+}
+
+.f-end {
+  text-align: end;
+}
+
+// img ====================
+.img-con {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-cov {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.highlight {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 0 6px;
+
+  &::before {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      top: auto;
+      bottom: 0px;
+      left: 0;
+      display: block;
+      width: 0;
+      height: 50%;
+      background-color: pink;
+      transition: all 2s;
+      transition-delay: 1s;
+  }
+
+  &.type-01 {
+    &::before {
+      transition: all 1s;
+      transition-delay: 1.5s;
+    }
+  }
+
+  &.type-02 {
+    &::before {
+      transition: all 1s;
+      transition-delay: 2s;
+    }
+  }
+
+  &.type-03 {
+    &::before {
+      transition: all 1.2s;
+      transition-delay: 2.5s;
+    }
+  }
+}
+
+.aos-animate {
+
+  .highlight::before {
+    width: 100%;
+  }
+}
+
+
+.hover-effect {
+  overflow: hidden;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    &:before {
+      left: calc(100% + 3px);
+    }
+  }
+
+  &::before {
+    display: block;
+    content: '';
+    z-index: 1;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: calc(0% - 157px);
+    width: 40px;
+    height: 150%;
+    background-color: white;
+    transform: skew(-30deg);
+    transition: all 0.6s;
+  }
+}
+
+
+// 아이콘
+.icon-arrow-wh {
+  width: 16px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.057' height='12.828' viewBox='0 0 21.057 12.828'%3E%3Cg id='그룹_56545' data-name='그룹 56545' transform='translate(22519 8393.414)'%3E%3Crect id='사각형_28673' data-name='사각형 28673' width='21' height='12' transform='translate(-22519 -8393)' fill='none'/%3E%3Cg id='그룹_56544' data-name='그룹 56544' transform='translate(-23005.5 -9051.762)'%3E%3Cline id='선_3045' data-name='선 3045' x2='18' transform='translate(487.5 664.761)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-width='2'/%3E%3Cg id='그룹_43' data-name='그룹 43' transform='translate(499.524 660.716)'%3E%3Cg id='그룹_53183' data-name='그룹 53183' transform='translate(-0.383 -0.954)'%3E%3Cline id='선_3046' data-name='선 3046' x2='5' y2='5' transform='translate(2)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-width='2'/%3E%3Cline id='선_3047' data-name='선 3047' x1='5' y2='5' transform='translate(2 5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.icon-arrow-bk {
+  width: 16px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.127' height='10' viewBox='0 0 16.127 10'%3E%3Cg id='그룹_56574' data-name='그룹 56574' transform='translate(21982 5049)'%3E%3Crect id='사각형_28706' data-name='사각형 28706' width='16' height='10' transform='translate(-21982 -5049)' fill='none'/%3E%3Cg id='그룹_56573' data-name='그룹 56573' transform='translate(-21981 -5048)'%3E%3Cline id='선_3045' data-name='선 3045' x2='14' transform='translate(0 4.001)' fill='none' stroke='%23000' stroke-linecap='round' stroke-width='1'/%3E%3Cg id='그룹_43' data-name='그룹 43' transform='translate(10.42)'%3E%3Cline id='선_3046' data-name='선 3046' x2='4' y2='4' fill='none' stroke='%23000' stroke-linecap='round' stroke-width='1'/%3E%3Cline id='선_3047' data-name='선 3047' x1='4' y2='4' transform='translate(0 4)' fill='none' stroke='%23000' stroke-linecap='round' stroke-width='1'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}

@@ -1,0 +1,92 @@
+/* =================== form =================== */
+.input-wrap {
+  width: 100%;
+}
+
+.input {
+  @include input-reset;
+
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 17px;
+  border-radius: 6px;
+  background-color: white;
+  font-size: em(18);
+  border: 1px solid;
+
+  @include hover {
+    border-color: color(primary);
+  }
+
+  &::placeholder {
+    opacity: 0.7;
+  }
+
+  &.input-tarea {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    resize: none;
+  }
+
+  &.input-round {
+    border: 1px solid;
+    border-radius: 25px;
+  }
+
+  &.input-underbar {
+    border-bottom: 1px solid;
+  }
+}
+
+// star score
+@for $i from 1 through 5 {
+  .rate#{$i} {
+    &:before {
+      content: "#{$i}"+".0";
+    }
+
+    &:after {
+      content: url("../../images/icon/icon_star" + "#{$i}" + ".svg");
+    }
+  }
+}
+
+//mistake02 체크박스
+.check-switch-onoff {
+  @include bg-url(img, 'img_check01.png');
+
+  background-size: 15px 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #EAEAEA;
+  border: 1px solid #E2E2E2;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+
+  &:hover {
+    background-color: darken(#EAEAEA, 2%);
+  }
+
+  @include mobile {
+    background-size: 10px 9px;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+  }
+
+  @at-root .check-switch:checked+& {
+    @include bg-url(img, 'img_check02.png');
+
+    background-color: color(primary);
+    border: 1px solid #36BF70;
+  }
+}
