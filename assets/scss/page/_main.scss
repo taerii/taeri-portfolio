@@ -9,6 +9,10 @@
         width: 100%;
         padding: 12px 24px;
 
+        @include mobile {
+            display: none;
+        }
+
         a {
             font-size: 18px;
 
@@ -163,7 +167,7 @@
     }
 
     .section-03 {        
-        padding: 50px 0;
+        padding: 118px 0 50px;
 
         @include mobile {
             padding: 80px 0;
